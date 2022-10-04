@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #457b9d;
+  color: #f1faee;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  min-height: 100vh;
+  justify-content: center;
+  /* gap: 140px; */
+}
+#pg-title {
+  /* border: 2px solid; */
+  text-align: center;
+  font-size: 6rem;
+  margin-top: 80px;
+  letter-spacing: 5px;
+  font-family: "Dancing Script", cursive;
+}
+
+.players {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 25px;
+  padding: 15px 0 15px;
+  gap: 50px;
+}
+
+.dice:hover {
+  transform: scale(0.97555555);
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.name {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+}
+footer {
+  /* border: 2px solid red; */
+  text-align: center;
+  position: sticky;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: bottom;
+  font-size: 1.5rem;
+  flex-grow: 1;
+  font-family: "Dancing Script", cursive;
+}
+.laptop:hover {
+  transform: rotate3d(15deg);
+  transition-delay: 0.5s;
+}
